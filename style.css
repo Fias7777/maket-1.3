@@ -1,0 +1,51 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.wrapper {
+    overflow-y: scroll;
+}
+/*--ШАПКА----------------------*/
+.header {
+    width:100%;
+    margin-bottom: 24px;
+    background: #FFFFFF;
+}
+ 
+.header-container {
+        display: flex;
+        height: 88px;  
+        justify-content: space-between;
+}
+.header-container-left,
+.header-container-right {
+    display: flex;
+    margin:24px 16px;
+}
+
+button {
+    border: none;
+    background-color: #FFFFFF;
+}
+
+
+
+/*--Список меню----------------------------------*/
+main {
+    background-color: #F8F8F8;
+    height: 509;
+}
+h1 {
+    font-family: 'TT Lakes Bold';
+}
+
+
+.menu__list {
+    display: flex;
+    list-style-type: none;
+    flex-wrap: nowrap;
+    
+
+}
+
